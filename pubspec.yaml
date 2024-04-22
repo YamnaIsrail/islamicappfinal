@@ -1,0 +1,96 @@
+name: islamicappfinal
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.4 <4.0.0'
+
+#ion available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^2.0.10+1
+  intl: ^0.19.0
+  hijri: ^3.0.0
+  timezone: ^0.9.2
+  adhan: ^2.0.0+1
+  shimmer: ^3.0.0
+  adhan_dart: ^1.0.8
+  shared_preferences: ^2.2.2
+  hijri_picker: ^3.0.0
+  url_launcher: ^6.2.5
+  font_awesome_flutter: ^10.7.0
+  translator: ^1.0.0
+  curved_navigation_bar: ^1.0.3
+  geocoding: ^2.2.0
+  geolocator: ^11.0.0
+  flutter_alarm_clock: ^0.1.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/images/splash/alnoor.png
+    - assets/images/praying_time/svg/
+    - assets/images/praying_time/svg/morning.svg
+    - assets/images/praying_time/svg/noon.svg
+    - assets/images/praying_time/svg/afternoon.svg
+    - assets/images/praying_time/svg/evening.svg
+    - assets/images/praying_time/svg/night.svg
+    - assets/images/png/bg.jpg
+    - assets/images/counter/
+    - assets/images/collection_icon/svg/
+    - assets/images/counter/bg1.jpg
+    - assets/images/png/
+    #    - assets/images/png/home.jpg
+    - assets/images/png/home.jpg
+    - assets/images/png/ghusal.jpg
+    - assets/images/png/wudu.jpg
+    - assets/images/png/wudu_icon.jpg
+    - assets/images/png/wudu.jpg
+    - assets/images/png/prayer.jpeg
+    - assets/images/png/rakaat.jpeg
+    - assets/images/png/
+    - assets/images/ramadan_images/
+  fonts:
+    - family: Uthman
+      fonts:
+        - asset: assets/fonts/Uthman-Taha-Naskh-Regular.otf
+        - asset: assets/fonts/Uthman-Taha-Naskh-Bold.otf
+          weight: 700
+    - family: Jameel
+      fonts:
+        - asset: assets/fonts/jameel.ttf
